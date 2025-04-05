@@ -1,0 +1,49 @@
+@import url('https://fonts.cdnfonts.com/css/digital-numbers');
+
+input {
+    font-family: 'Digital Numbers', sans-serif;
+    height: 50px;
+    width: 222px;
+    font-size: 30px;
+    text-align: right;
+    margin-bottom: 10px;
+    background-color: #FDB15B;
+    border: none;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+button {
+    background-color: #D66472;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    height: 350px;
+    width: 250px;
+    background-color: #3E4F71;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: 55px 55px 55px 55px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    gap: 2px;
+}
